@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RESEP MAKANAN GEPREKAN</title>
+    <title>KUMPULAN RESEP MAKANAN</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="menu-main">
         <div class="heading">
-            <h1>RESEP MAKANAN GEPREKAN</h1>
+            <h1>KUMPULAN RESEP MAKANAN</h1>
             <h3>&mdash; MENU &mdash; </h3>
+            <br />
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" placeholder="Ketik nama makanan di sini..." id="user-inp">
+                    <button id="search-btn">Search</button>
+                </div>
+                <div id="result"></div>
+            </div>
         </div>
         <div class="food-items">
             <img src="ayam_geprek.jpe">
@@ -100,5 +108,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
